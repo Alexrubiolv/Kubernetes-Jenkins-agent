@@ -11,7 +11,7 @@ spec:
           memory: "150m"
           cpu: "100m"
         limits:
-          memory: "150"
+          memory: "1Gi"
     - name: docker
       image: docker:18.06.1
       command: ["tail", "-f", "/dev/null"]
